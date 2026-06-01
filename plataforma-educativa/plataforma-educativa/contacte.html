@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Nom de la Plataforma — Pàgina</title>
+ <link rel="stylesheet" href="css/reset.css">
+ <link rel="stylesheet" href="css/variables.css">
+ <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+ <header>
+        <img class="LOGO" src="assets/icons/LOGO.png" alt="Logo de EduByte">
+        <h1 style="text-shadow: 2px 2px 5px rgb(237, 94, 24);">Escuela EduByte</h1>
+ </header>  
+    <nav>
+        <ul>
+            <li style="border-color: black;"><a href="index.html"><b>Inicio</b></a></li>
+            <li><a href="cursos.html"><b>Clases</b></a></li>
+            <li><a href="curs-detall.html"><b>Descripción asignatura</b></a></li>
+            <li><a href="sobre-nosaltres.html"><b>Sobre nosotros</b></a></li>
+            <li class="Now"><a href="contacte.html"><b>Contacto</b></a></li>
+        </ul>
+    </nav>
+ <main class="MContacto">
+ <section class="Somos mitad">
+    <h3>CONTACA CON NOSOTROS</h3>
+    <p>Rellena el siguiente formulario y nos pondremos en contacto contigo lo antes posible para resolver todas tus dudas y enviarte toda la información que necesites.</p>
+    <p><strong>Teléfono:</strong> 672 89 00 40</p>
+    <p><strong>Correo:</strong> info@edubyte.com</p>    
+    <p><strong>Horarios de atención:</strong> De lunes a viernes de 8:00 a 14:30</p>
+</section>
+<form action="#">
+    <div class="Form">
+    <label for="nombre"><b>Nombre</b></label>
+    <br>
+    <input type="text" name="mombre" id="nombre" placeholder="Nombre y apellido" required>        
+    </div>
+
+    <div class="Form">
+    <label for="correo"><b>Correo</b></label>
+    <br>
+    <input type="email" name="correo" id="correo" placeholder="ejemplo@gmail.com" required>        
+    </div>
+
+    <div class="Form">
+    <label for="telefono"><b>Telefono</b></label>
+    <br>
+    <input type="number" name="telefono" id="telefono" placeholder="+34 612 34 56 887" required>        
+    </div>
+
+    <div class="Form">
+    <label for="mensaje"><strong>Mensaje</strong></label>
+    <br>
+    <input type="text" name="mensaje" id="mensaje" placeholder="Texto" required>        
+    </div>
+    <button type="submit"><strong>ENVIAR</strong></button>
+    <button type="reset"><strong>LIMPIAR</strong></button>
+</form>
+ </main>
+ <footer>
+    <p>EduByte</p>
+    <p class="info">Teléfono: 672 89 00 40 <br>
+    Correo: info@edubyte.com <br>
+    Ubicación: <br>
+    C/ Garcilaso, 56, 08027 Barcelona</p>
+ </footer>
+</body>
+</html>
