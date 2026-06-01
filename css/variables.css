@@ -1,0 +1,14 @@
+:root {
+  --color-principal: #3498db;
+  --color-secundario: #2ecc71;
+  --color-oscuro: #2c3e50;
+  --color-claro: #f8f9fa;
+
+  --fuente-base: 'Helvetica Neue', Arial, sans-serif;
+  --fuente-titulos: 'Georgia', serif;
+
+  --espacio-sm: 8px;
+  --espacio-md: 16px;
+  --espacio-lg: 32px;
+  --borde-radio: 8px;
+}

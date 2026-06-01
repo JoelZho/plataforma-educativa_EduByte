@@ -1,0 +1,227 @@
+
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+        background-color: #d9d9d9;
+
+}
+.LOGO{
+    width: 100px;
+}
+h1{
+    font-size: 70px;
+    width: 100%;
+}
+header{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 5px;
+    background-color: #f0f0f0;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    box-shadow: 0px 5px 55px rgb(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1000;
+}
+nav{
+    margin: 0px;
+    width: 100%;
+    background-color: #d9d9d9;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 15px;
+    
+}
+nav li{
+    border: rgb(237, 94, 24) 2px solid;
+    border-color:rgb(237, 94, 24);
+    border-radius: 30px;
+    background-color: #ffffff;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 0px 1px 5px rgb(0, 0, 0);
+    margin: 1px;
+    margin-top: 0px;
+    justify-content: space-around;
+}
+.Now{
+    background-color: #f8ebbc;
+}
+nav li:hover{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px); 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+nav a:hover{
+    color: rgb(2, 0, 46);
+}
+img{
+    width: 300px;
+    border-radius: 10px;
+    margin: 20px;
+}
+article{
+    display: flex;
+    width: 100%;
+    background-color: #d9d9d9;
+}
+
+button{
+    border: rgb(237, 94, 24) 2px solid;
+    border-color:rgb(237, 94, 24);
+    border-radius: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    padding: 5px;
+    box-shadow: 0px 1px 5px rgb(0, 0, 0);
+    margin: 20px;
+    margin-top: 0px;
+    
+}
+button:hover{
+    border: rgb(237, 94, 24) 2px solid;
+    border-color:rgb(237, 94, 24);
+    border-radius: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    padding: 5px;
+    box-shadow: 0px 1px 5px rgb(0, 0, 0);
+    margin: 20px;
+    margin-top: 0px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px); 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+h2{
+    color: rgb(237, 94, 24);
+    font-size: 60px;
+    margin: 20px;
+    margin-bottom: 20px
+}
+p{
+    color: rgb(124, 124, 124);
+    margin: 20px;
+
+}
+.Negro{
+    background-color: #a6a6a6;
+}
+.Negro p{
+    color: #ffffff;
+}
+
+.TextoBoton2{
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+}
+.C{
+    width: 100%;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    height: 80px;
+}
+
+.MCursos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 30px;
+}
+.Cursos{
+    background-color: white;
+    border-radius: 10%;
+    width: 400px;
+    gap: 10px;
+    box-shadow: 1px 1px 40px rgba(128, 128, 128, 0.425);
+    justify-items: center;
+    padding-top: 30px;
+    align-items: center;
+    border: rgb(237, 94, 24) 2px solid;
+    height: 300px;
+}
+.Cursos:hover{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px); 
+}
+.detall{
+    display: flex;
+    align-items: center;
+}
+.detall img{
+    height: 100px;
+    width: 100px;
+    border: rgb(237, 94, 24) 2px solid;
+}
+.detall h3{
+    font-size: 25px;
+    margin: 10px;
+}
+.detall p{
+    margin: 10px;
+}
+.Somos h3{
+    font-size: 40px;
+    padding: 20px;
+    background-color: #d9d9d9;
+}
+.Form{
+    background-color: #f0f0f0;
+    gap: 30px;
+    padding: 20px;
+    margin: 10px;
+    width:  600px;
+}
+.Form label{
+    font-size: 20px;
+}
+.Form input{
+    font-size: 20px;
+    border: none;
+    background-color: #f0f0f0;
+    width: 100%;
+}
+.mitad{
+    width: 50%;
+}
+.MContacto{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 30px;
+    width:  100%;
+}
+
+.info{
+    font-size: 10px
+}
+.detall_text{
+    background-color: white;
+    border: rgb(237, 94, 24) 2px solid;
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    margin: 10px;
+}
